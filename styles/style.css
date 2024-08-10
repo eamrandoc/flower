@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shared styles */
+h1{
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+.primary-button{
+    background-color: rgb(229, 84, 115);
+    border-radius: 8px;
+    padding: 20px 40px;
+    color: white;
+    font-size: 1.25rem;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 40px 120px 0;
+    background-color: rgba(229, 84, 155, 0.1);
+}
+.banner{
+    padding: 150px 0;
+}
+.banner-description{
+    margin: 32px 40px 32px 0;
+    text-align: justify;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    header{
+    flex-direction: column-reverse;
+    /* justify-content: space-between; */
+    gap: 10px;
+    padding: 10px;
+}
+.banner{
+    padding: 10px;
+}
+img{
+    width: 100%;
+}
+
+}
